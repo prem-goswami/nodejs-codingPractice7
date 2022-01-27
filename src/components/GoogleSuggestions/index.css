@@ -1,0 +1,35 @@
+.bgContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.googleImage {
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.searchBoxContainer {
+  width: 50%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  padding: 10px;
+}
+.searchBoxStyling {
+  border-width: 0px;
+}
+.searchBox {
+  display: flex;
+  flex-direction: row;
+}
+.searchImage {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.searchResultContainer {
+  padding: 10px;
+}
